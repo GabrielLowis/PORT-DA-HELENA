@@ -5,7 +5,120 @@
 }
 
 header {
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     justify-content: space-between;
+    padding: 5px 65px;
+}
+
+header .logo img {
+    width: 200px;
+}
+
+.links {
+    /* background-color: red; */
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+    font-size: 23px;
+    color: rgb(62, 62, 62);
+}
+
+.links p {
+    cursor: pointer;
+}
+
+main {
+    background-image: url('../assets/imgs/main.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+/* --------------------------------------------------------------------- */
+
+.projetos {
+    /* background-color: red; */
+    width: 100%;
+    /* height: 70vh; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0;
+}
+
+.card {
+    background-color: #E8CACE;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.card img {
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+    /* object-fit: cover; */
+}
+
+.card h2 {
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.card button {
+    background-color: #DFB0B0;
+    color: white;
+    border: none;
+    padding: 10px 55px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* ---------------------------------------------- */
+
+.quemSou {
+    background-image: url('../assets/imgs/quemSou.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 116vh;
+}
+
+/* --------------------------------------------------------- */
+
+.algunsDeles {
+    background-color: #E3CDE5;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.umDeles {
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 25px;
+}
+
+/* ---------------------------------------------------- */
+
+.habilidades {
+    background-image: url('../assets/imgs/habilidades.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 116vh;
 }
